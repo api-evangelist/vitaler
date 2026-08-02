@@ -1,8 +1,26 @@
 aid: vitaler
-name: Vitaler
-description: 'Vitaler is a company surfaced as a portfolio company of threshold-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vitaler.png
+name: Vital
+description: 'Vital is a patient-experience technology company for healthcare providers, delivering
+  AI-powered patient guidance and communication across the hospital journey: emergency, inpatient,
+  urgent care, patient access, care coordination, and post-discharge monitoring (Vital Guard). Its
+  software integrates directly with electronic health record systems (Epic, Oracle Health/Cerner,
+  MEDITECH, Veradigm) over FHIR R4 and HL7v2/ADT feeds to surface real-time wait-time predictions,
+  plain-language test-result and discharge-instruction explanations, and AI medical translation.
+  Vital is HIPAA compliant and HITRUST CSF, SOC 2, and NIST CSF aligned. The vitaler.com domain
+  redirects to vital.io; Vital was surfaced as a portfolio company of Threshold Ventures. It exposes
+  EHR/integration surfaces to its hospital customers rather than a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/vitaler/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +30,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Patient Experience
+- EHR
+- FHIR
+- HL7
+- Hospital
+- Digital Health
+- HITRUST
+- Care Coordination
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 common:
 - type: Website
-  url: https://vitaler.com/
+  url: https://vital.io/
+- type: Documentation
+  url: https://vital.io/help/en/collections/19470958-integration-guide
+- type: Support
+  url: https://vital.io/help
+- type: Blog
+  url: https://vital.io/newsroom
+- type: PrivacyPolicy
+  url: https://vital.io/privacy
+- type: TermsOfService
+  url: https://vital.io/terms
+- type: StatusPage
+  url: https://status.vital.io/
+- type: Lifecycle
+  url: lifecycle/vitaler-lifecycle.yml
+- type: TrustCenter
+  url: security/vitaler-trust-center.yml
+- type: Compliance
+  url: security/vitaler-trust-center.yml
+- type: Conformance
+  url: conformance/vitaler-conformance.yml
+- type: DomainSecurity
+  url: security/vitaler-domain-security.yml
